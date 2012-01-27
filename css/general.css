@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+.done {
+	text-decoration:line-through;
+	color:#FF00FF;
+}
+

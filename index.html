@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Intro to jQuery</title>
+    <link href="css/general.css" rel="stylesheet">
+</head>
+
+<body>
+
+<a href="http://google.com"> Click me now, please!!! </a>
+
+<form>
+	<label for="item"> Item </label>
+    <input id="item"> 
+    <button type="submit"> Add Item </button>
+</form>
+
+<ul class="todo"> </ul>
+
+<!-- 
+loading jQuery from google's CDN is more efficient than downloading into your 'js' folder. it will be served from the google server nearest your user and, if your user has been to another website that also uses Google's CDN, it will be cached 
+you will always use the path and not path ui since you want the compressed file unless you are going to devel. jQuery
+
+everything in jQuery is wrapped up in the $() element
+related to css example: $('#id') .class dv.p  div > p: first-child, meaning it understands css  
+-->
+
+<script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<!--it's important that jQuery is above your Javascript file so it gets downloaded and parsed first-->
+
+<script src="js/todo.js"></script>
+
+
+
+
+</body>
+</html>
